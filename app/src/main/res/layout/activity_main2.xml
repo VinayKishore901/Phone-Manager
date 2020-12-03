@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/vk">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Features"
+            android:textSize="80dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="1.Accessing Contacts of your android phone through SMS.You just have to send a text with  format \npassword.contact.name
+              \n\n2.Accessing GPS location of your mobile phone via SMS.You just have to send text with format password.loaction
+                \n\n3.Changing your phone volume/mode to max volume/ringer.You just have to send text with format password.mode
+                \n\n4.You can lock your phone using this app.You have to send a text with format password.lock\n**note-You have to go to setting->device manager->this_app->Activate in order to use this features as it comes under android developer policy.
+                \n\n5.You can make your phone ring with a text password.ring
+                \n\n6.You can lock your phone with a pin with a text password.changepin.XXXX where XXXX is your 4 digit pin
+                \n\n7.You can factory reset your phone with a text password.wipedata
+                \n\n8.You can get battery status of your phone using text password.battery"
+            android:textColor="@android:color/black"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/b"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Developers"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

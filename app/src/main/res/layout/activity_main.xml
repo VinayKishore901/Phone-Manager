@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/aa"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Helper"
+        android:textSize="50dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register your username and password "
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Username"
+        android:gravity="center"
+        android:background="@drawable/b"
+        />
+
+    <EditText
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/b"
+        android:gravity="center"
+        android:hint="Password"
+        android:padding="20dp" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SET"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@drawable/b"/>
+
+    <Button
+        android:id="@+id/htw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="How to use"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@drawable/b"/>
+
+
+</LinearLayout>
